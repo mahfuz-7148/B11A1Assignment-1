@@ -1,0 +1,171 @@
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    color: #F5F5F5;
+    margin: 30px 160px;
+}
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLogo {
+    color: #0E0E0E;
+    font-size: 32px;
+    font-weight: bold;
+}
+.navBtn {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #006A50;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    border: 1px solid #006A50;
+}
+.banner {
+    display: flex;
+    justify-content: space-around;
+    background-color: #C6E4D6;
+    margin: 0 160px;
+    border-radius: 24px;
+    padding: 117px 60px;
+}
+.bannerTitle {
+    font-size: 24px;
+    color: #0E0E0E;
+}
+.bannerHeading {
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 16px;
+}
+.bannerBtn {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    color: #FFFFFF;
+    background-color: #006A50;
+    margin-top: 24px;
+    border-radius: 8px;
+}
+.pillarContent {
+    display: flex;
+}
+.pillars {
+    margin: 80px 160px;
+
+}
+.pillar {
+    padding: 25px;
+    border: 1px solid black;
+    margin: 24px;
+    border-radius: 16px;
+}
+.pillarTitle {
+    margin-bottom: 12px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pillar img {
+    margin-bottom: 24px;
+}
+.pillerDetails {
+    font-size: 16px;
+    color: #0e0e0eba;
+}
+.visions {
+    margin: 80px 160px;
+}
+.visionContent {
+    display: flex;
+}
+.visionHeading {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.visionTitle {
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.vision {
+    border: 1px solid black;
+    padding: 32px;
+    border-radius: 16px;
+    margin: 20px;
+    background-color: #548ff548;
+}
+.vision.vision2 {
+    background-color: #09a15d81;
+}
+.vision.vision3 {
+    background-color: #ffc4397b;
+}
+.vision img {
+    padding: 20px 0;
+}
+.visionsHeading {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.visionsDetails {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+.visionBtn {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.visionBtn.visionBtn1 {
+    background-color: #5490F5;
+    color: #FFFFFF;
+}
+.visionBtn.visionBtn2 {
+    background-color: #09A15C;
+    color: #FFFFFF;
+}
+.visionBtn.visionBtn3 {
+    background-color: #FFC239;
+    color: #FFFFFF;
+}
+.speech{
+    position: relative;
+    margin: 80px 160px;
+    
+}
+.speech img {
+    padding-left: 24px;
+    padding-top: 24px;
+}
+.speechContent {
+    position: absolute;
+    top: 5%;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 48px 24px;
+}
+.speechDetails {
+    font-size: 16px;
+    color: #0E0E0E;
+    margin-bottom: 12px;
+}
+.speechHeading {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+.speechtitle {
+    font-size: 16px;
+}
