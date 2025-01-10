@@ -200,4 +200,50 @@ nav {
 }
 .newsHeading {
     color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+.newsTitle {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.satelite {
+    display: flex;
+    margin: 80px 160px;
+    justify-content: space-around;
+}
+.satelite img {
+    border-radius: 24px;
+}
+.sateliteHeading{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.sateliteContent {
+    margin: 20px 32px;
+}
+.date{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    display: block;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+.sateliteDesc {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.sateliteBtn {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    padding: 13px 26px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    margin: 32px 0;
 }
