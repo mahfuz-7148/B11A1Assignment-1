@@ -6,9 +6,12 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-nav {
+ .primary {
     color: #F5F5F5;
+ }
+nav {
     margin: 30px 160px;
 }
 .navContent {
@@ -40,7 +43,8 @@ nav {
 }
 .bannerTitle {
     font-size: 24px;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
 }
 .bannerHeading {
     font-size: 56px;
@@ -59,49 +63,58 @@ nav {
 }
 .pillarContent {
     display: flex;
+    gap: 24px;
+    margin-top: 30px;
 }
 .pillars {
     margin: 80px 160px;
 
 }
+.pillarsHeading{
+    color: rgba(14, 14, 14, 1);
+}
 .pillar {
     padding: 25px;
-    border: 1px solid black;
-    margin: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
 }
 .pillarTitle {
     margin-bottom: 12px;
     font-size: 20px;
     font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
 }
 .pillar img {
     margin-bottom: 24px;
 }
 .pillerDetails {
     font-size: 16px;
-    color: #0e0e0eba;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
 }
 .visions {
     margin: 80px 160px;
 }
 .visionContent {
     display: flex;
+    gap: 24px;
 }
 .visionHeading {
     font-size: 40px;
     font-weight: bold;
     margin-bottom: 24px;
+    color: #0E0E0E !important
 }
 .visionTitle {
     font-size: 16px;
     margin-bottom: 32px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
 }
 .vision {
-    border: 1px solid black;
+    border: none;
     padding: 32px;
     border-radius: 16px;
-    margin: 20px;
     background-color: #548ff548;
 }
 .vision.vision2 {
@@ -117,10 +130,13 @@ nav {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 12px;
+    color: rgba(14, 14, 14, 1);
 }
 .visionsDetails {
     font-size: 16px;
     margin-bottom: 24px;
+    color: rgba(14, 14, 14, 0.7);
+    font-weight: 400;
 }
 .visionBtn {
     font-size: 16px;
@@ -141,31 +157,47 @@ nav {
     color: #FFFFFF;
 }
 .speech{
-    position: relative;
+    /* position: relative; */
     margin: 80px 160px;
-    
 }
-.speech img {
+/* .speech img {
     padding-left: 24px;
     padding-top: 24px;
+} */
+.speechImg {
+ position: relative;
+}
+.speechImg img {
+    position: absolute;
+    padding: 24px;
 }
 .speechContent {
-    position: absolute;
+    /* position: absolute; */
     top: 5%;
-    border: 1px solid black;
+    border: 1px solid rgba(241, 241, 243, 1);
     border-radius: 8px;
     padding: 48px 24px;
 }
 .speechDetails {
     font-size: 16px;
-    color: #0E0E0E;
+    color: rgba(14, 14, 14, 0.8);
     margin-bottom: 12px;
+    font-weight: 400;
 }
 .speechHeading {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 4px;
+    color: rgba(14, 14, 14, 1)
 }
 .speechtitle {
     font-size: 16px;
+    color: rgba(14, 14, 14, 0.6);
+    font-weight: 400;
+}
+.news {
+    margin: 80px 160px;
+}
+.newsHeading {
+    color: rgba(14, 14, 14, 1);
 }
