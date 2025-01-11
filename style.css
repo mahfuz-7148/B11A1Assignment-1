@@ -8,8 +8,10 @@
     padding: 0;
     box-sizing: border-box;
 }
- .primary {
-    color: #F5F5F5;
+
+body {
+     color: #F1F1F3;
+    
  }
 nav {
     margin: 30px 160px;
@@ -60,6 +62,7 @@ nav {
     background-color: #006A50;
     margin-top: 24px;
     border-radius: 8px;
+    border: none;
 }
 .pillarContent {
     display: flex;
@@ -143,6 +146,7 @@ nav {
     font-weight: 600;
     padding: 10px 20px;
     border-radius: 8px;
+    border: none;
 }
 .visionBtn.visionBtn1 {
     background-color: #5490F5;
@@ -246,4 +250,82 @@ nav {
     border-radius: 8px;
     background-color: rgba(0, 106, 80, 1);
     margin: 32px 0;
+    border: none;
+}
+.donates{
+    margin: 80px 160px;
+}
+.donateTitle{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+}
+.donateDesc {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+    text-align: center;
+    margin-bottom: 24px;
+}
+.donateContent{
+    display: flex;
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.donate{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    padding: 50px;
+    border-radius: 16px;
+    background-color: white;
+    border: 1px solid black;
+}
+.amountContent {
+    margin: 80px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.amountTitle {
+    color: rgb(242, 240, 246);
+    background-color: rgba(0, 0, 0, 0.728);
+    padding: 20px 450px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}   
+.amountBtn{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 34px;
+    border-radius: 8px;
+    background-color: rgba(0, 106, 80, 1);
+    border: none;
+    color: rgba(255, 255, 255, 1);
+}
+.subscribe {
+    display: flex;
+    background-color: #C6E4D6;
+    margin: 80px 160px;
+    border-radius: 24px;
+    padding: 117px 60px;
+    flex-direction: column;
+    align-items: center;
+}
+.subscribeHeading {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    margin-top: 16px;
+}
+.subscribeTitle {
+    font-size: 16px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 400;
 }
