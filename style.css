@@ -260,7 +260,7 @@ nav {
     padding: 40px;
     border-radius: 24px;
 }
-.satelite img {
+.sateliteImg img{
     border-radius: 24px;
 }
 .sateliteHeading{
@@ -271,11 +271,12 @@ nav {
 .sateliteContent {
     margin: 20px 32px;
 }
-.date{
+.dateTime{
+    display: flex;
+    gap: 12px;
     font-size: 16px;
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
-    display: block;
     margin-bottom: 12px;
     margin-top: 20px;
 }
