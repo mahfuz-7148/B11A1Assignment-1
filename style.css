@@ -35,6 +35,10 @@ nav {
     border: none;
     border: 1px solid #006A50;
 }
+.navBtn:hover{
+    background: none;
+    background-color: transparent;
+}
 .banner {
     display: flex;
     justify-content: space-around;
@@ -59,10 +63,16 @@ nav {
     font-weight: 600;
     padding: 17px 34px;
     color: #FFFFFF;
-    background-color: #006A50;
+    background-color: rgba(0, 106, 80, 1);
     margin-top: 24px;
     border-radius: 8px;
     border: none;
+}
+.bannerBtn:hover {
+    background: none;
+    color: rgba(0, 106, 80, 1);
+    border: 1px solid rgba(0, 106, 80, 1);
+    transition: 0.4s ease;
 }
 .pillarContent {
     display: flex;
@@ -156,9 +166,29 @@ nav {
     background-color: #09A15C;
     color: #FFFFFF;
 }
+.visionBtn.visionBtn1:hover{
+    background: none;
+    border: 1px solid #5490F5;
+    background-color: transparent;
+    color: #5490F5;
+}
+.visionBtn.visionBtn2:hover{
+
+    background: none;
+    border: 1px solid #09A15C;
+    background-color: transparent;
+    color: #09A15C;
+}
 .visionBtn.visionBtn3 {
     background-color: #FFC239;
     color: #FFFFFF;
+}
+.visionBtn.visionBtn3:hover{
+    background: none;
+    border: 1px solid #FFC239;
+    background-color: transparent;
+    color: #FFC239;
+
 }
 .speech{
     /* position: relative; */
@@ -255,6 +285,13 @@ nav {
     margin: 32px 0;
     border: none;
 }
+.sateliteBtn:hover {
+    background: none;
+    color: rgba(0, 106, 80, 1);
+    border: 1px solid rgba(0, 106, 80, 1);
+    transition: 0.4s ease;
+    
+}
 .donates{
     margin: 80px 160px;
 }
@@ -285,6 +322,15 @@ nav {
     padding: 50px;
     border-radius: 16px;
     background-color: rgba(255, 255, 255, 1);
+}
+.donate:hover {
+    background: none;
+    border: 1px solid rgba(198, 228, 214, 1);
+    background-color: rgba(198, 228, 214, 1);
+    color: #FFFFFF;
+}
+.donate.donate2 {
+    background-color: rgba(198, 228, 214, 1);
 }
 .amountContent {
     display: flex;
@@ -375,9 +421,32 @@ form input[type='email']{
     height: 56px;
     position: absolute;
 }
+.emailBtn:hover {
+    border: 1px solid rgba(0, 106, 80, 1);
+    transition: 0.4s ease;
+    background: none;
+    color: rgba(0, 106, 80, 1);
+}
 .emailFooter {
     font-size: 16px;
     font-weight: 400;
     text-align: center;
     margin-top: 24px;
+}
+.footerHeading h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+}
+footer hr {
+    height: 1px;
+    margin: 80px 160px;
+}
+.icons {
+   text-align: center;
+   margin-bottom: 80px;
+}
+.icons img {
+    padding: 15px;
 }
