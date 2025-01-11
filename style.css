@@ -32,12 +32,13 @@ nav {
     color: #006A50;
     font-weight: 600;
     border-radius: 8px;
-    border: none;
+    cursor: pointer;
     border: 1px solid #006A50;
 }
 .navBtn:hover{
-    background: none;
-    background-color: transparent;
+    background-color: #006A50;
+    color: #FFFFFF;
+    transition: 0.4s ease;
 }
 .banner {
     display: flex;
@@ -67,6 +68,7 @@ nav {
     margin-top: 24px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 .bannerBtn:hover {
     background: none;
@@ -85,6 +87,8 @@ nav {
 }
 .pillarsHeading{
     color: rgba(14, 14, 14, 1);
+    font-size: 40px;
+    font-weight: bold;
 }
 .pillar {
     padding: 25px;
@@ -161,33 +165,38 @@ nav {
 .visionBtn.visionBtn1 {
     background-color: #5490F5;
     color: #FFFFFF;
+    border: 1px solid #5490F5;
+    cursor: pointer;
 }
 .visionBtn.visionBtn2 {
     background-color: #09A15C;
     color: #FFFFFF;
-}
-.visionBtn.visionBtn1:hover{
-    background: none;
-    border: 1px solid #5490F5;
-    background-color: transparent;
-    color: #5490F5;
-}
-.visionBtn.visionBtn2:hover{
-
-    background: none;
     border: 1px solid #09A15C;
-    background-color: transparent;
-    color: #09A15C;
+    cursor: pointer;
 }
 .visionBtn.visionBtn3 {
     background-color: #FFC239;
     color: #FFFFFF;
+    border: 1px solid #FFC239;
+    cursor: pointer;
+}
+.visionBtn.visionBtn1:hover{
+    background: none;
+    border: 1px solid #5490F5;
+    color: #5490F5;
+    transition: 0.4s ease;
+}
+.visionBtn.visionBtn2:hover{
+    background: none;
+    border: 1px solid #09A15C;
+    color: #09A15C;
+    transition: 0.4s ease;
 }
 .visionBtn.visionBtn3:hover{
     background: none;
     border: 1px solid #FFC239;
-    background-color: transparent;
     color: #FFC239;
+    transition: 0.4s ease;
 
 }
 .speech{
@@ -283,7 +292,8 @@ nav {
     border-radius: 8px;
     background-color: rgba(0, 106, 80, 1);
     margin: 32px 0;
-    border: none;
+    border: 1px solid rgba(0, 106, 80, 1);
+    cursor: pointer;
 }
 .sateliteBtn:hover {
     background: none;
@@ -322,11 +332,12 @@ nav {
     padding: 50px;
     border-radius: 16px;
     background-color: rgba(255, 255, 255, 1);
-}
-.donate:hover {
-    background: none;
     border: 1px solid rgba(198, 228, 214, 1);
+    cursor: default;
+}
+.donate:hover{
     background-color: rgba(198, 228, 214, 1);
+    border: 1px solid rgba(198, 228, 214, 1);
     color: #FFFFFF;
 }
 .donate.donate2 {
@@ -354,13 +365,15 @@ nav {
     border-radius: 8px;
     background-color: rgba(0, 106, 80, 1);
     border: none;
+    transition: 0.4s ease;
     color: rgba(255, 255, 255, 1);  
+    border: 1px solid #006A50;
+    cursor: pointer;
 }
 .amountBtn button:hover {
-    background: none;
-    color: rgba(0, 106, 80, 1);
-    border: 1px solid rgba(0, 106, 80, 1);
-    transition: 0.4s ease;
+    background-color: #FFFFFF;
+    border: 1px solid #006A50;
+    color: #006A50;
 }
 .amountBtn {
     display: flex;
@@ -420,6 +433,7 @@ form input[type='email']{
     width: 150px;
     height: 56px;
     position: absolute;
+    cursor: pointer;
 }
 .emailBtn:hover {
     border: 1px solid rgba(0, 106, 80, 1);
@@ -438,15 +452,16 @@ form input[type='email']{
     font-weight: bold;
     color: rgba(14, 14, 14, 1);
     text-align: center;
+    
 }
 footer hr {
     height: 1px;
-    margin: 80px 160px;
+    margin: 30px 160px;
 }
 .icons {
    text-align: center;
-   margin-bottom: 80px;
+   margin-bottom: 40px;
 }
 .icons img {
-    padding: 15px;
+    padding: 10px;
 }
