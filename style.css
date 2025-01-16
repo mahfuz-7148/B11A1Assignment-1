@@ -481,7 +481,7 @@ footer hr {
     color: #006A50;
     font-weight: 600;
     border-radius: 8px;
-    cursor: pointer;
+    pointer-events: none;
     border: 1px solid #006A50;
 }
   .banner {
@@ -516,7 +516,7 @@ footer hr {
     margin-top: 24px;
     border-radius: 8px;
     border: none;
-    cursor: pointer;
+    pointer-events: none;
 }
   .pillarContent {
     flex-direction: column;
@@ -537,6 +537,9 @@ footer hr {
     font-weight: bold;
     margin-bottom: 24px;
     color: #0E0E0E !important;
+}
+.visionBtn {
+    pointer-events: none;
 }
 .visions {
     margin: 50px 25px;
@@ -564,11 +567,15 @@ footer hr {
     font-weight: bold;
     color: rgba(14, 14, 14, 0.8);
 }
+.sateliteBtn {
+    pointer-events: none;
+}
 .donates {
     margin: 55px 45px;
 }
 .donateContent {
     flex-direction: column;
+    pointer-events: none;
 }
 .donateTitle {
     font-size: 35px;
@@ -583,6 +590,9 @@ footer hr {
 .amountContent input {
    height: 40px;
    width: 250px;
+}
+.amountBtn {
+    pointer-events: none;
 }
 .subscribe {
     background-color: #C6E4D6;
@@ -612,8 +622,7 @@ form input[type='email'] {
     border-bottom-right-radius: 10px;
     width: 115px;
     height: 55px;
-    position: absolute;
-    cursor: pointer;
+    pointer-events: none;
 }
 .subscribeTitle {
     font-size: 15px;
