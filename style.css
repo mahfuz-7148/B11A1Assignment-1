@@ -202,13 +202,8 @@ nav {
 
 }
 .speech{
-    /* position: relative; */
     margin: 80px 160px;
 }
-/* .speech img {
-    padding-left: 24px;
-    padding-top: 24px;
-} */
 .speechImg {
  position: relative;
 }
@@ -217,7 +212,6 @@ nav {
     padding: 24px;
 }
 .speechContent {
-    /* position: absolute; */
     top: 5%;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 8px;
@@ -467,4 +461,164 @@ footer hr {
 }
 .icons img {
     padding: 10px;
+}
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 576px) {
+   nav {
+    margin: 23px 22px;
+  }
+  .navLogo {
+    color: #0E0E0E;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .navBtn {
+    padding: 15px 20px;
+    font-size: 15px;
+    color: #006A50;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 1px solid #006A50;
+}
+  .banner {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    background-color: #C6E4D6;
+    margin: 5px 4px;
+    border-radius: 24px;
+    padding: 23px 29px;
+  }
+  .bannerImage {
+    display: none;
+  }
+  .bannerHeading {
+    font-size: 35px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-top: 16px;
+}
+.bannerTitle {
+    font-size: 19px;
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 500;
+}
+.bannerBtn {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 10px;
+    color: #FFFFFF;
+    background-color: rgba(0, 106, 80, 1);
+    margin-top: 24px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+  .pillarContent {
+    flex-direction: column;
+  }
+  .pillars {
+    margin: 35px 20px;
+}
+.pillarsHeading {
+    color: rgba(14, 14, 14, 1);
+    font-size: 25px;
+    font-weight: bold;
+}
+.visionContent {
+    flex-direction: column;
+}
+.visionHeading {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: #0E0E0E !important;
+}
+.visions {
+    margin: 50px 25px;
+}
+.speech {
+    margin: 50px 25px;
+}
+.news {
+    margin: 40px 45px;
+}
+.satelite {
+    flex-direction: column;
+    margin: 20px 10px;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 12px;
+    border-radius: 24px;
+    flex-direction: column;
+}
+.sateliteImg img{
+    width: 100%;
+}
+.sateliteHeading {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.donates {
+    margin: 55px 45px;
+}
+.donateContent {
+    flex-direction: column;
+}
+.donateTitle {
+    font-size: 35px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 1);
+    text-align: center;
+    margin-bottom: 15px;
+}
+.donate {
+    font-size: 20px;
+}   
+.amountContent input {
+   height: 40px;
+   width: 250px;
+}
+.subscribe {
+    background-color: #C6E4D6;
+    margin: 45px 15px;
+    border-radius: 24px;
+    height: 395px;
+    width: auto;
+    padding-top: 30px;
+}
+.subscribeHeading {
+    font-size: 25px;
+}
+.emailContent {
+    margin-right: 120px;
+}
+form input[type='email'] {
+    width: 200px;
+}
+.emailBtn {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(0, 106, 80, 1);
+    padding: 12px 23px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 115px;
+    height: 55px;
+    position: absolute;
+    cursor: pointer;
+}
+.subscribeTitle {
+    font-size: 15px;
+}
+.footerHeading h1 {
+    font-size: 20px;
+}
 }
